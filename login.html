@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Account Log-in</title>
+    <link rel="stylesheet" href="log-in style.css" />
+  </head>
+  <head>
+    <style>
+        body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{ 
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(241, 100%, 50%);
+}
+.navbar li{
+    float: left;
+}
+.activeLink{
+    background-color: hsl(241, 100%, 50%);
+    color:white
+}
+       </style>
+   </head>
+<body>
+
+    <ul>
+        <li><a class="active" href="pc store.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="log in.html">Log-in</a></li>
+    </ul>
+  <body>
+    <h1>Account Log-in</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action="https://register-demo.freecodecamp.org">
+      <fieldset>
+        <label for="first-name"
+          >Enter Your First Name:
+          <input id="first-name" name="first-name" type="text" required
+        /></label>
+        <label for="last-name"
+          >Enter Your Last Name:
+          <input id="last-name" name="last-name" type="text" required
+        /></label>
+        <label for="email"
+          >Enter Your Email:
+          <input id="email" name="email" type="email" required
+        /></label>
+        <label for="new-password"
+          >Password:
+          <input
+            id="new-password"
+            name="new-password"
+            type="password"
+            pattern="[a-z0-5]{8,}"
+            required
+        /></label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input
+          class="inline"
+          id="terms-and-conditions"
+          type="checkbox"
+          required
+          name="terms-and-conditions"
+        />
+        I accept the
+        <a href="https://www.freecodecamp.org/news/terms-of-service/"
+          >terms and conditions</a
+        >
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
