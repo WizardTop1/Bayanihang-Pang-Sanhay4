@@ -17,15 +17,15 @@
 }
 
 .logo{
-    color: #8b0000;
+    color: #fff;
     font-size: 25px;
     font-family: Arial;
-    padding-left: 20px;
+    padding-left: 130px;
     float: left;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
-.icon {
+.icon{
     width: 200px;
     float: inline-start;
     height: 70px;
@@ -248,9 +248,9 @@ background-color: white;
 
 .hello{
     position: fixed;
-    height: 140px;
-    left: 44px;
-    width: 140px;
+    height: 80px;
+    left: 30px;
+    width: 80px;
     background-color: transparent;
     padding-top: 5px;
 

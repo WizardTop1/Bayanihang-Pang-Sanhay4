@@ -8,15 +8,15 @@
 </head>
 <body>
     <div class="main">
+        <div class="logo">Bayanihang Pang Sanhay</div>
         <div class="navbar">
-            <div class="logo"></div>
             <div class="container">
                 <img src="462542102_1109783300748039_7665451183251114895_n (1).jpg" class="hello">
             </div>
             <div class="menu">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="DONATE.html">DONATE</a></li>
+                    <li><a href="DONATE1.html">DONATE</a></li>
                     <li><a href="CONTACT1.html">CONTACT</a></li>
                 </ul>
             </div>
@@ -26,53 +26,49 @@
             <h1>Support <span>Bayanihang Pang Sanhay</span></h1>
             <p class="par">
                 Thank you for choosing to make a difference! Your donation helps provide essential supplies to students in need. 
-                Select a donation amount below or enter a custom amount, and choose your preferred payment method.</p>
+                Select a donation amount below or enter a custom amount, and choose your preferred payment method.
+            </p>
 
-            <div class="content">
-                <h1>Donation<span>Section</span></h1> 
-                <p class="par"><br>Thank you for considering a donation. Here's how you can help...</p>
-                <!DOCTYPE html>
-     <html>
-         <style>
-             table {
-                 width: 100%;
-                 border-collapse: collapse;
-                 margin: 20px 0;
-             }
-             th, td {
-                 padding: 12px;
-                 border: 1px solid #ddd;
-                 text-align: center;
-             }
-             th {
-                 background-color: #4CAF50;
-                 color: white;
-             }
-             .header {
-                 background-color: #f2f2f2;
-                 font-weight: bold;
-             }
-         </style>
-     
-     <body>
-     
-     <h2>Donation Options</h2>
-     <table>
-         <tr>
-             <th colspan="2">Money Donation</th>
-             <th colspan="2">Item Donation</th>
-         </tr>
-         <tr>
-             <th colspan="2"><button class="cn">
-                 <a href="https://forms.gle/7GZzFC7NoPwMYcUk6"><b>Money Donation</b></button></th></a>
-             <th colspan="2"><button class="cn">
-                 <a href="https://forms.gle/Qt78hxjkLsHSLVT69"><b>Item Donation</b></button></th></a>
-         </tr>
-         </tr>
-     </table>
-     </head>
-     </body>
-     </html>
+            <div class="donation-form">
+                <form action="#" method="POST">
+                    <h2>Select Donation Amount</h2>
+                    <div class="amount-options">
+                        <label>
+                            <input type="radio" name="amount" value="500"> ₱50-500 
+                        </label>
+                        <label>
+                            <input type="radio" name="amount" value="1000"> ₱600-1,000
+                        </label>
+                        <label>
+                            <input type="radio" name="amount" value="2000"> ₱2,000
+                        </label>
+                        <label>
+                            <input type="radio" name="amount" value="other"> Other
+                            <input type="number" name="customAmount" placeholder="Enter Amount" min="1">
+                        </label>
+                    </div>
+
+                    <h2>Choose Payment Method</h2>
+                    <div class="payment-options">
+                        <label>
+                            <input type="radio" name="paymentMethod" value="creditCard"> Credit Card
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="paypal"> PayPal
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="gcash"> GCash
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="bankTransfer"> Bank Transfer
+                        </label>
+                    </div>
+
+                    <button type="submit" class="donate-btn">Donate Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
