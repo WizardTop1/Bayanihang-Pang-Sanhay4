@@ -308,6 +308,55 @@ background-color: white;
     font-weight: bold;
     
 }
+.icon a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.circular-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.navbar .menu ul {
+    list-style: none;
+    padding: 33px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .menu ul li .nav-link {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .menu ul li .nav-link:hover {
+    background-color: #e6693e;
+}
 
