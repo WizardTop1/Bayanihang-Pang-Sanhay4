@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Account Log-in</title>
-    <link rel="stylesheet" href="log-in style.css" />
+    <link rel="stylesheet" href="login.css" />
   </head>
   <head>
     <style>
@@ -16,10 +16,13 @@ main{
 }
 h1{
     text-align: center;
+    padding: 0;
+    padding-right: 470px;
+   
 }
 .navbar ul{ 
     list-style-type: none;
-    background-color: hsl(0, 0%, 0%);
+    background-color:none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -44,27 +47,25 @@ h1{
        </style>
    </head>
 <body>
-
-    <ul>
-        <li><a class="active" href="pc store.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="log in.html">Log-in</a></li>
-    </ul>
+  <div class="main">
+    <div class="logo">
+        <img src="462542102_1109783300748039_7665451183251114895_n (1).jpg" alt="Logo" class="circular-logo">
+        Bayanihang Pang Sanhay
+    </div>
+    <div class="navbar">
+        <div class="menu">
+            <ul>
+                <li><a href="home.html" class="nav-link">HOME</a></li>
+                <li><a href="DONATE1.html" class="nav-link">DONATE</a></li>
+                <li><a href="CONTACT1.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
   <body>
     <h1>Account Log-in</h1>
     <p>Please fill out this form with the required information</p>
-    <form method="post" action="https://register-demo.freecodecamp.org">
+    <form method="post" action="https://bpsdonation.netlify.app/home">
       <fieldset>
-        <label for="first-name"
-          >Enter Your First Name:
-          <input id="first-name" name="first-name" type="text" required
-        /></label>
-        <label for="last-name"
-          >Enter Your Last Name:
-          <input id="last-name" name="last-name" type="text" required
-        /></label>
         <label for="email"
           >Enter Your Email:
           <input id="email" name="email" type="email" required
@@ -72,8 +73,6 @@ h1{
         <label for="new-password"
           >Password:
           <input
-            id="new-password"
-            name="new-password"
             type="password"
             pattern="[a-z0-5]{8,}"
             required
